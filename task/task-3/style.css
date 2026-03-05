@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.btn{
+    @apply hover:bg-green-900 hover:text-gray-400 cursor-pointer
+}
+.item{
+    @apply hover:bg-green-800 rounded hover:text-white px-3 py-1
+}
+.text{
+   @apply font-extrabold
+}

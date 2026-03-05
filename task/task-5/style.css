@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.color li{
+    @apply  my-3 p-2 rounded
+}
+.color_2 li{
+    @apply m-2 px-2 py-1 rounded-2xl
+}
+.color_2{
+    @apply text-center
+}

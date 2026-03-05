@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.items{
+    @apply my-3 
+}

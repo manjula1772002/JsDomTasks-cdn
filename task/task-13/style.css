@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.header{
+    @apply cursor-pointer  p-3 bg-[#f1f5f9] rounded mb-3
+}
+.contenta{
+    display: none;
+    @apply p-4 mb-1 shadow-2xl text-[#334155]
+}
+
+.active .contenta{
+   display: block;
+}

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.active{
+   @apply bg-gray-100
+}
+.active input{
+    @apply focus:ring-gray-600
+}
+.active button{
+    @apply bg-gray-500
+}
+.dark{
+    @apply bg-black
+}
+.dark header>div>button{
+    @apply hover:bg-gray-400
+}
