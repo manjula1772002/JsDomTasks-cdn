@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";const o=document.getElementById("input"),c=document.querySelectorAll(".division");o.addEventListener("keyup",()=>{const n=o.value.toLowerCase();c.forEach(s=>{[...s.querySelectorAll("li")].some(e=>{const t=e.textContent.toLowerCase().includes(n);return e.style.display=t?"block":"none",t})})});

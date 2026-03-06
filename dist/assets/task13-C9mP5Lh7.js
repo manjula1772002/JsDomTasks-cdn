@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";let l=document.querySelectorAll(".header"),n=document.querySelectorAll(".contenta");l.forEach(e=>{e.addEventListener("click",()=>{n.forEach(t=>{t.style.display="none"}),e.nextElementSibling.style.display="block"})});

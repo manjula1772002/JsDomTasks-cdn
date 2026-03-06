@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";const e=document.getElementById("Toggle"),c=document.getElementById("card");e.addEventListener("click",()=>{document.body.classList.toggle("dark");const t=document.body.classList.contains("dark");c.classList.toggle("active",t),e.textContent=t?"☀️":"🌙"});

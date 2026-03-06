@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";document.getElementById("name");let e=document.getElementById("password");document.getElementById("submit");let t=document.getElementById("checkbox");t.addEventListener("click",()=>{e.type==="password"?e.setAttribute("type","text"):e.setAttribute("type","password")});
