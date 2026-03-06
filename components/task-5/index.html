@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>color_switcher</title>
+  <link rel="stylesheet" href="/components/task-5/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="text-2xl text-center">Welcome to CyberDude Networks</h1>
+  </header>
+  <section id="sec" class="w-fit m-auto">
+    <div class="flex gap-x-10 items-center bg-white p-3 justify-center rounded-2xl mt-10">
+      <div>
+        <ul class="bg-gray-400 rounded-2xl list-none w-fit p-5 color text-center">
+          <li id="Red" class="text-red-700 bg-white outline-2 outline-red-700" onclick="changeColor(red)">Red</li>
+          <li id="Orange" class="text-orange-400 bg-white outline-2 outline-orange-400">
+            Orange
+          </li>
+          <li id="Green" class="text-green-700 bg-white outline-2 outline-green-700">
+            Green
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="color_2 w-fit rounded p-2 m-3">
+          <li id="Random" class="text-black bg-gray-300 outline-2 px-2 py-1 outline-black mb-3">Random</li>
+          <!-- <li id="Theme" class="text-black bg-white outline-1 px-2 py-1 outline-black">Theme</li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="/components/task-5/main.js"></script>
+</body>
+
+</html>

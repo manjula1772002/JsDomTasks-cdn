@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>user_id</title>
+  <script type="module" crossorigin src="/assets/task2-BnS1pACD.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/assets/task2-D-4PwGd9.css">
+</head>
+
+<body class="m-4 text-center">
+  <section class="w-[50%] m-auto">
+    <div>
+      <h1 class="capitalize font-semibold text-center text-3xl m-4">
+        user id
+      </h1>
+      <!-- user name  -->
+      <div class="mb-4">
+        <label class="block text-start font-medium text-gray-600 mb-1 pl-2"> Name </label>
+        <input required id="username" type="text" placeholder="Enter user name"
+          class="w-full outline-blue-500 rounded-lg text-center border border-gray-300 px-4 py-2 text-gray-700" />
+      </div>
+      <!-- job name  -->
+      <div class="mb-6">
+        <label class="block text-start font-medium text-gray-600 mb-1 pl-2"> Job Role </label>
+        <input required id="jobrole" type="text" placeholder="Enter job role"
+          class="w-full text-center rounded-lg border outline-blue-500 border-gray-300 px-4 py-2 text-gray-700" />
+      </div>
+      <!-- submit  -->
+      <button id="submitData"
+        class="w-full bg-blue-600 text-white font-medium cursor-pointer py-2.5 rounded-lg hover:bg-blue-700">
+        Add User
+      </button>
+
+      <div class="space-y-3 mt-5 rounded-2xl  p-5 ">
+        <ul id="result" class="listitems"></ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
