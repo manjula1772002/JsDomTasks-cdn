@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea Limit</title>
+  <script type="module" crossorigin src="/assets/task12-B6rbOSBv.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/assets/task7-D0tYCf0p.css">
+</head>
+
+<body>
+    <section class="bg-slate flex flex-col justify-center text-center h-[100vh] bg-blue-200">
+        <h1 class="text-4xl font-medium">Text Format</h1>
+        <div class="flex flex-col justify-center items-center">
+            <label for="text" class="font-light text-2xl">Enter a text</label>
+            <textarea id="TextArea" required maxlength="200" class="w-full -green-400 md:w-150 h-75 rounded-xl border-2 border-green-600 outline-none bg-slate-200 p-3"></textarea>
+            <p  class="font-medium"><span id="count">0</span>/200</p>
+        </div>
+        <div id="error" class="text-red-700"></div>
+        <div class=" flex gap-5 items-center justify-center mt-2">
+            <button id="toUpperCaseText" class="button px-2 py-1  font-medium rounded ">UPPERCASE</button>
+            <button id="toLowerCaseText" class="button px-2 py-1  font-medium rounded " >lowercase</button>
+            <button id="clearText" class="px-2 py-1 font-medium rounded text-red-500 cursor-pointer hover:text-white hover:bg-red-500">CLEAR</button>
+            <a href=".../index.html"><button type="button" class="bg-white px-3  py-2 hover:bg-green-700  rounded"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%231f1f1f'%3e%3cpath%20d='m313-440%20224%20224-57%2056-320-320%20320-320%2057%2056-224%20224h487v80H313Z'/%3e%3c/svg%3e" alt="back" class="w-4 h-4"></button></a>
+        </div>
+
+        
+    </section>
+</body>
+
+</html>

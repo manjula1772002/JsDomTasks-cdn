@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimation for Website creation</title>
+  <script type="module" crossorigin src="/assets/task18-DGs-8YwK.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/assets/task18-B4hTodHj.css">
+</head>
+
+<body >
+
+    <section>
+        <div class="w-100 m-auto  p-5 rounded-2xl mt-2 mr-7 bg-amber-50 outline-2 outline-black">
+            <h1 class="text-3xl font-medium">
+                Cost and Hour Estimation
+            </h1>
+            <div>
+                <div>
+                    <form  class="grid grid-cols-1 gap-2 ">
+                        <div class="mt-1">
+                            <label for="project name" class=" mb-2">Project Name <span class="text-red-700">*</span></label>
+                            <input type="text" title="Please Fill The Project Name" required placeholder="Project Name" id="ProjectName"
+                                class="bg-slate-100 outline-1 outline-orange-500  hover:outline-2 px-2 py-1 rounded block w-full">
+                        </div>
+                        <div class="mt-1">
+                            <label for="framework" class=" mb-2">Framework<span class="text-red-700">*</span></label>
+                            <select name="framework options" required id="framework" 
+                                class="bg-slate-100 outline-1 outline-orange-500  hover:outline-2 px-2 py-1 rounded block w-full">
+                                <option value="">Choose any one</option>
+                                <option value="React">React</option>
+                                <option value="Angular">Angular</option>
+                                <option value="vuejs">Vue</option>
+                                <option value="Phython">Django</option>
+                                <option value="PHP">Larvel</option>
+                            </select>
+                        </div>
+
+                        <div class="mt-1">
+                            <label for="Level" class=" mb-2">Project Level<span class="text-red-700">*</span></label>
+                            <select name="Level" required id="Level" 
+                                class="bg-slate-100 outline-1 outline-orange-500  hover:outline-2 px-2 py-1 rounded block w-full">
+                                <option value="">Choose any one</option>
+                                <option value="Easy">Easy</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Complex">Complex</option>
+                            </select>
+                        </div>
+                        <div class="mt-1 ">
+                            <label for="developersCount" class=" mb-2">Team Members(developers)<span
+                                    class="text-red-700">*</span></label>
+                            <input type="number"  id="developers" class="outline-1 outline-orange-500 hover:outline-2 bg-slate-100 px-2 py-1 rounded  w-full" min="1" value="1"
+                                max="10">
+                        </div>
+                        <div class="mt-1">
+                            <label for="durations" class="mb-2">Time durations(Weeks)<span class="text-red-700">*</span></label>
+                            <input type="number" id="durations" min="1" value="1" class="outline-1 outline-orange-500 hover:outline-2 bg-slate-100 px-2 py-1 rounded w-full"
+                                max="12">
+                        </div>
+                         <div class="mt-1">
+                            <label for="text area" class=" mb-2">Customized<span class=" text-gray-400">(optional)</span></label>
+                            <input type="text" id="text-area" class="outline-1 outline-orange-500 hover:outline-2 bg-slate-100 px-2 py-1 rounded block w-full"
+                                max="12">
+                        </div>
+                        <div class="flex mt-2 gap-2 items-center justify-between"> <span class="text-red-700 flex items-center">*<h6
+                                    class="text-black">Required</h6> </span><a href=".../" ><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%231f1f1f'%3e%3cpath%20d='m313-440%20224%20224-57%2056-320-320%20320-320%2057%2056-224%20224h487v80H313Z'/%3e%3c/svg%3e" alt="back" class="hover:bg-red-600 px-2 py-1  rounded"></a><button id="btn" 
+                                class="bg-orange-600 text-white font-medium px-2 py-1 hover:bg-orange-800 cursor-pointer rounded">Estimate</button></div>
+                         
+                            </form>
+                </div>
+                <div id="Result"> 
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
